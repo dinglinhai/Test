@@ -1,0 +1,17 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rds7zqreqmbvvjro.mysql.rds.aliyuncs.com:3306/pos
+    username: pudong
+    password: puDonG2015iPo
+
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+
+
+
