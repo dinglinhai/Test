@@ -12,6 +12,7 @@ public class TestImpl implements Test {
         String s = "Hello World!";
         System.out.println(s);
         System.out.println("测试推送");
+        System.out.println("测试提交");
         return s;
     }
 }
