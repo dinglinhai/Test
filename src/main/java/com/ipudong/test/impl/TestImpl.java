@@ -10,6 +10,7 @@ public class TestImpl implements Test {
     @Override
     public String sayHello() {
         String s = "Hello World!";
+        System.out.println(s);
         return s;
     }
 }
