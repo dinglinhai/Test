@@ -199,6 +199,7 @@ public class OneTreePosImportServiceImpl implements OneTreePosImportService {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+        System.out.println(date);
         return date;
     }
 }
